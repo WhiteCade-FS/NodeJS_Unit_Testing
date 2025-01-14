@@ -12,10 +12,19 @@ const multiply = (num) => {
 const divide = (num) => {
   return num;
 };
+const sqrt = (num) => {
+  return num;
+};
+
+const max = (num) => {
+  return num;
+};
 
 module.exports = {
   add,
   subtract,
   multiply,
   divide,
+  sqrt,
+  max,
 };
