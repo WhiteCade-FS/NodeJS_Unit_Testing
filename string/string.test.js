@@ -17,6 +17,6 @@ describe("This should run the given math problem and return the correct numbers"
     expect(sqrt(Math.sqrt(25))).toBe(5);
   });
   test("Should take two parameters and return the max", () => {
-    expect(max(Math.max(5, 20, 100, 23, 99))).toBe(100);
+    expect(max(Math.max(5, 100))).toBe(100);
   });
 });
